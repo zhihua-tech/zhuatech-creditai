@@ -1,5 +1,7 @@
 # CreditAI：企业信用风险与额度决策社区版
 
+[简体中文](README.md) | [English](README.en.md)
+
 > 出品方：[知华科技（上海如静知华信息科技有限公司）](https://www.zhuatech.cn/)　Java 包名：`cn.zhuatech.creditai`
 
 CreditAI 为财务、销售运营和信用管理团队提供 B2B 客户信用评估工作台。系统综合年度营收、当前应收、最长逾期、延迟付款次数、经营年限与外部风险，输出风险等级、建议可用额度、账期策略和完整原因。
