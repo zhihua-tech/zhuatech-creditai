@@ -1,0 +1,66 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "eligibleCollateral": "#70000",
+      "remainingLimit": "#20000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "newOrders": "70001"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "remainingLimit": "#-1"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "guaranteeUntil": "2026-10-23"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "guaranteeUntil": "2026-10-23",
+      "newOrders": "0"
+    },
+    "expected": {
+      "decision": "REVIEW"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "creditUntil": "2026-10-23"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "haircutPct": "101"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "newOrders": "70000"
+    },
+    "expected": {
+      "decision": "PASS",
+      "remainingLimit": "#0"
+    },
+    "error": false
+  }
+]
