@@ -1,5 +1,9 @@
 # CreditAI：企业信用风险与额度决策社区版
 
+## 本次功能更新：客户敞口与额度余量核算
+
+汇总未收应收、未开票订单和有权抵扣的担保金额，计算额度占用与可用余量，拒绝重复单据，不自动授信。 登录后从「业务计算工具」使用，支持校验与完整结果导出。详见[算法口径、接口和测试说明](docs/AI_OPERATIONS_UPGRADE_20261023.md)。
+
 [简体中文](README.md) | [English](README.en.md)
 
 > 出品方：[知华科技（上海如静知华信息科技有限公司）](https://www.zhuatech.cn/)　Java 包名：`cn.zhuatech.creditai`

@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Customer exposure and credit headroom
+
+Reconciles outstanding receivables, unbilled orders and manually eligible collateral into net exposure and credit headroom; no automated lending decision is made. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech Creditai
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise finance, planning, settlement, and risk control.
